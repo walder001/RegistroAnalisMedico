@@ -55,9 +55,6 @@
   <ItemGroup>
     <Compile Include="BLL\AnalisisBLL.cs" />
     <Compile Include="DAL\Contexto.cs" />
-    <Compile Include="Entidades\Analisis.cs" />
-    <Compile Include="Entidades\AnalisisDetalle.cs" />
-    <Compile Include="Entidades\TipoAnalisis.cs" />
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -92,8 +89,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="UI\Registro\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
