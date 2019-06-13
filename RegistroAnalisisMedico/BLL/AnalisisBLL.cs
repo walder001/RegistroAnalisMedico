@@ -111,7 +111,7 @@ namespace RegistroAnalisisMedico.BLL
             try
             {
                 analisis = contexto.Analisis.Find(id);
-                analisis.AnalisisDetalle.Count();
+                analisis.AnalisisDetalle.Count()
                 
 
             }
