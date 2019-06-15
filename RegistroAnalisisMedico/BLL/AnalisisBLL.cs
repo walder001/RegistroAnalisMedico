@@ -24,7 +24,7 @@ namespace RegistroAnalisisMedico.BLL
             {
                 if (contexto.Analisis.Add(analisis) != null)
                 {
-                    contexto.SaveChanges();
+                    paso = contexto.SaveChanges() >0;
                 }
 
             }
@@ -111,7 +111,7 @@ namespace RegistroAnalisisMedico.BLL
             try
             {
                 analisis = contexto.Analisis.Find(id);
-                analisis.AnalisisDetalle.Count()
+                analisis.AnalisisDetalle.Count();
                 
 
             }

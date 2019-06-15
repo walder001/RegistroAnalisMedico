@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.28803.352
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegistroAnalisisMedico", "RegistroAnalisisMedico.csproj", "{CF5C9257-FD12-450C-A639-01DA1AA9F9A6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProyectoFinal", "..\..\ProyectoFinal\ProyectoFinal.csproj", "{DC00C6D9-90F0-4442-B440-445959835E7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shurth", "..\..\ShurthThink\Shurth.csproj", "{F34B8AB7-ADF4-4ED9-BC01-F40CCD6ECCC3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{CF5C9257-FD12-450C-A639-01DA1AA9F9A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF5C9257-FD12-450C-A639-01DA1AA9F9A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF5C9257-FD12-450C-A639-01DA1AA9F9A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC00C6D9-90F0-4442-B440-445959835E7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC00C6D9-90F0-4442-B440-445959835E7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC00C6D9-90F0-4442-B440-445959835E7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC00C6D9-90F0-4442-B440-445959835E7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F34B8AB7-ADF4-4ED9-BC01-F40CCD6ECCC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F34B8AB7-ADF4-4ED9-BC01-F40CCD6ECCC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F34B8AB7-ADF4-4ED9-BC01-F40CCD6ECCC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F34B8AB7-ADF4-4ED9-BC01-F40CCD6ECCC3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

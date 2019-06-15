@@ -15,7 +15,7 @@ namespace RegistroAnalisisMedico.Entidades
         public int TipoId { get; set; }
         public string Resultado { get; set; }
         public virtual List<TipoAnalisis> TipoAnalisis { get; set; }
-        public virtual List<Analisis> Analisis { get; set; }
+      
         public AnalisisDetalle()
         {
             AnalisisId = 0;

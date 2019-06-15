@@ -23,12 +23,10 @@ namespace RegistroAnalisisMedico.Entidades
             UsuarioId = 0;
             AnalisisDetalle = new List<AnalisisDetalle>();
         }
-        public Analisis(int analsisId, DateTime fecha, int usuarioId)
+       
+        public void Agregar(int analisisId, int tipoId, string resulatdo)
         {
-            AnalisisId = analsisId;
-            Fecha = fecha;
-            UsuarioId = usuarioId;
-
+            this.AnalisisDetalle.Add(new AnalisisDetalle(analisisId, tipoId, resulatdo));
 
         }
     }
