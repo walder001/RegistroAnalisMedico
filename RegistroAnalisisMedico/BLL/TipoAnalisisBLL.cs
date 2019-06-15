@@ -2,6 +2,7 @@
 using RegistroAnalisisMedico.Entidades;
 using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
@@ -44,6 +45,12 @@ namespace RegistroAnalisisMedico.BLL
                 {
                     //buscar las entidades que no estan para removerlas
                     var Anterior = db.TipoAnalisis.Find(analisis.TipoId);
+                db.Entry(analisis).State = EntityState.Modified;
+                if (db.SaveChanges() > 0)
+                {
+                    paso = true;
+                }
+
 
                 }
                 catch (Exception)

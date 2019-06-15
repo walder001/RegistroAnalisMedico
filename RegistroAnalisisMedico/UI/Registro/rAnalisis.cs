@@ -116,7 +116,6 @@ this.AnalisisDetalles;
             if (!Validar())
                 return;
             analisis = LLenaClase();
-            Limpiar();
 
             if (AnalisiIdnumericUpDown1.Value == 0)
             {

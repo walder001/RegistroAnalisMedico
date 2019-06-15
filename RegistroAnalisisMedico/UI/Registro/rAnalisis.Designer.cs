@@ -48,6 +48,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.ErrorProvider = new System.Windows.Forms.ErrorProvider(this.components);
             this.UsuarioscomboBox2 = new System.Windows.Forms.ComboBox();
+            this.label8 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.AnalisiIdnumericUpDown1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.DetalledataGridView1)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -57,7 +58,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(13, 17);
+            this.label1.Location = new System.Drawing.Point(13, 53);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(51, 13);
             this.label1.TabIndex = 0;
@@ -66,7 +67,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(13, 54);
+            this.label2.Location = new System.Drawing.Point(13, 90);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(37, 13);
             this.label2.TabIndex = 1;
@@ -76,7 +77,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(13, 88);
+            this.label3.Location = new System.Drawing.Point(13, 124);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(43, 13);
             this.label3.TabIndex = 2;
@@ -84,7 +85,7 @@
             // 
             // AnalisiIdnumericUpDown1
             // 
-            this.AnalisiIdnumericUpDown1.Location = new System.Drawing.Point(77, 10);
+            this.AnalisiIdnumericUpDown1.Location = new System.Drawing.Point(77, 46);
             this.AnalisiIdnumericUpDown1.Name = "AnalisiIdnumericUpDown1";
             this.AnalisiIdnumericUpDown1.Size = new System.Drawing.Size(60, 20);
             this.AnalisiIdnumericUpDown1.TabIndex = 8;
@@ -92,7 +93,7 @@
             // FechadateTimePicker1
             // 
             this.FechadateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.FechadateTimePicker1.Location = new System.Drawing.Point(77, 48);
+            this.FechadateTimePicker1.Location = new System.Drawing.Point(77, 84);
             this.FechadateTimePicker1.Name = "FechadateTimePicker1";
             this.FechadateTimePicker1.Size = new System.Drawing.Size(114, 20);
             this.FechadateTimePicker1.TabIndex = 9;
@@ -100,42 +101,54 @@
             // 
             // Nuevo
             // 
-            this.Nuevo.Location = new System.Drawing.Point(30, 415);
+            this.Nuevo.BackColor = System.Drawing.SystemColors.Highlight;
+            this.Nuevo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Nuevo.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.Nuevo.Location = new System.Drawing.Point(30, 448);
             this.Nuevo.Name = "Nuevo";
             this.Nuevo.Size = new System.Drawing.Size(75, 23);
             this.Nuevo.TabIndex = 14;
             this.Nuevo.Text = "Nuevo";
-            this.Nuevo.UseVisualStyleBackColor = true;
+            this.Nuevo.UseVisualStyleBackColor = false;
             this.Nuevo.Click += new System.EventHandler(this.Nuevo_Click);
             // 
             // Guardar
             // 
-            this.Guardar.Location = new System.Drawing.Point(163, 415);
+            this.Guardar.BackColor = System.Drawing.SystemColors.Highlight;
+            this.Guardar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Guardar.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.Guardar.Location = new System.Drawing.Point(163, 448);
             this.Guardar.Name = "Guardar";
             this.Guardar.Size = new System.Drawing.Size(75, 23);
             this.Guardar.TabIndex = 15;
             this.Guardar.Text = "Guardar";
-            this.Guardar.UseVisualStyleBackColor = true;
+            this.Guardar.UseVisualStyleBackColor = false;
             this.Guardar.Click += new System.EventHandler(this.Guardar_Click);
             // 
             // Eliminar
             // 
-            this.Eliminar.Location = new System.Drawing.Point(299, 415);
+            this.Eliminar.BackColor = System.Drawing.SystemColors.Highlight;
+            this.Eliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Eliminar.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.Eliminar.Location = new System.Drawing.Point(299, 448);
             this.Eliminar.Name = "Eliminar";
             this.Eliminar.Size = new System.Drawing.Size(75, 23);
             this.Eliminar.TabIndex = 16;
             this.Eliminar.Text = "Eliminar";
-            this.Eliminar.UseVisualStyleBackColor = true;
+            this.Eliminar.UseVisualStyleBackColor = false;
             this.Eliminar.Click += new System.EventHandler(this.Eliminar_Click);
             // 
             // Buscar
             // 
-            this.Buscar.Location = new System.Drawing.Point(143, 7);
+            this.Buscar.BackColor = System.Drawing.SystemColors.Highlight;
+            this.Buscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Buscar.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.Buscar.Location = new System.Drawing.Point(143, 43);
             this.Buscar.Name = "Buscar";
             this.Buscar.Size = new System.Drawing.Size(75, 23);
             this.Buscar.TabIndex = 17;
             this.Buscar.Text = "Buscar";
-            this.Buscar.UseVisualStyleBackColor = true;
+            this.Buscar.UseVisualStyleBackColor = false;
             this.Buscar.Click += new System.EventHandler(this.Buscar_Click);
             // 
             // DetalledataGridView1
@@ -156,7 +169,7 @@
             this.groupBox1.Controls.Add(this.DetalledataGridView1);
             this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Controls.Add(this.label4);
-            this.groupBox1.Location = new System.Drawing.Point(16, 124);
+            this.groupBox1.Location = new System.Drawing.Point(16, 160);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(394, 276);
             this.groupBox1.TabIndex = 19;
@@ -174,22 +187,28 @@
             // 
             // button2
             // 
+            this.button2.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.button2.Location = new System.Drawing.Point(349, 15);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(37, 27);
             this.button2.TabIndex = 21;
             this.button2.Text = "+";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.Button2_Click);
             // 
             // Remover
             // 
+            this.Remover.BackColor = System.Drawing.SystemColors.Highlight;
+            this.Remover.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Remover.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.Remover.Location = new System.Drawing.Point(6, 242);
             this.Remover.Name = "Remover";
             this.Remover.Size = new System.Drawing.Size(75, 23);
             this.Remover.TabIndex = 20;
             this.Remover.Text = "Remover";
-            this.Remover.UseVisualStyleBackColor = true;
+            this.Remover.UseVisualStyleBackColor = false;
             this.Remover.Click += new System.EventHandler(this.Remover_Click);
             // 
             // ResultadotextBox2
@@ -225,17 +244,29 @@
             // UsuarioscomboBox2
             // 
             this.UsuarioscomboBox2.FormattingEnabled = true;
-            this.UsuarioscomboBox2.Location = new System.Drawing.Point(77, 80);
+            this.UsuarioscomboBox2.Location = new System.Drawing.Point(77, 116);
             this.UsuarioscomboBox2.Name = "UsuarioscomboBox2";
             this.UsuarioscomboBox2.Size = new System.Drawing.Size(333, 21);
             this.UsuarioscomboBox2.TabIndex = 20;
             this.UsuarioscomboBox2.SelectedIndexChanged += new System.EventHandler(this.UsuarioscomboBox2_SelectedIndexChanged);
             // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.label8.Location = new System.Drawing.Point(10, 9);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(87, 24);
+            this.label8.TabIndex = 24;
+            this.label8.Text = "Registro";
+            // 
             // rAnalisis
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(429, 450);
+            this.ClientSize = new System.Drawing.Size(440, 490);
+            this.Controls.Add(this.label8);
             this.Controls.Add(this.UsuarioscomboBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.Buscar);
@@ -281,5 +312,6 @@
         private System.Windows.Forms.ErrorProvider ErrorProvider;
         private System.Windows.Forms.ComboBox TipoAnalisicomboBox1;
         private System.Windows.Forms.ComboBox UsuarioscomboBox2;
+        private System.Windows.Forms.Label label8;
     }
 }
