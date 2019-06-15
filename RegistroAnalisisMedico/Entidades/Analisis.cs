@@ -24,9 +24,9 @@ namespace RegistroAnalisisMedico.Entidades
             AnalisisDetalle = new List<AnalisisDetalle>();
         }
        
-        public void Agregar(int analisisId, int tipoId, string resulatdo)
+        public void Agregar(int analisisId, int tipoId,string descripcion, string resulatdo)
         {
-            this.AnalisisDetalle.Add(new AnalisisDetalle(analisisId, tipoId, resulatdo));
+            this.AnalisisDetalle.Add(new AnalisisDetalle(analisisId, tipoId,descripcion, resulatdo));
 
         }
     }

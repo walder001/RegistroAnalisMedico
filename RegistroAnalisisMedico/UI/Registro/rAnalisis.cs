@@ -54,6 +54,7 @@ this.AnalisisDetalles;
                 analisis.Agregar(
                     Convert.ToInt32(item.Cells["AnalisisId"].Value),
                     Convert.ToInt32(item.Cells["TipoId"].Value),
+                    Convert.ToString(item.Cells["Descripcion"]),
                     Convert.ToString(item.Cells["Resultado"])
                 );
             }
@@ -161,7 +162,7 @@ this.AnalisisDetalles;
                 this.AnalisisDetalles = (List<AnalisisDetalle>)DetalledataGridView1.DataSource;
 
             this.AnalisisDetalles.Add(new AnalisisDetalle(analisisId: (int)AnalisiIdnumericUpDown1.Value,
-                tipoId: 0,
+                tipoId: 0, descripcion: TipoAnalisicomboBox1.Text,
 resultado: ResultadotextBox2.Text));
             CargarGrid();
         }
@@ -247,7 +248,7 @@ resultado: ResultadotextBox2.Text));
                 pacientes = PacienteBLL.GetList(p => true);
                 UsuarioscomboBox2.DataSource = null;
                 UsuarioscomboBox2.DataSource = pacientes;
-                UsuarioscomboBox2.ValueMember = "PacienteId";
+                UsuarioscomboBox2.ValueMember = "IdPaciente";
                 UsuarioscomboBox2.DisplayMember = "Nombres";
             }
             catch (Exception)
